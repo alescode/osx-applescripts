@@ -1,5 +1,10 @@
+-- Opens a new iTerm tab set to the current Finder window.
+-- Especially useful with Quicksilver and a Finder-specific hotkey like
+-- Command-T.
+
 -- Base code:
 -- http://jots.mypopescu.com/post/9117847341/open-iterm2-terminal-in-current-folder
+
 on run {input, parameters}
     tell application "Finder"
         set sel to selection
